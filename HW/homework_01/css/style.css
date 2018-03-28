@@ -1,0 +1,161 @@
+body{
+    background: #EDF2C5;
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background: #EDF2C5;
+    margin: auto;
+    padding: 0px 160px;
+    width: 940px;
+    height: 880px;
+    }
+    .headerbox {
+        width: 940px;
+        height: 95px;
+        padding: 0;
+        margin: auto;
+        }
+        .log{
+            display: inline-block;
+            font-family: "Arial Black";
+            font-size: 44px;
+            color: #778A50;
+            margin-bottom: 0;
+            margin-right: 0;
+        }
+        .imgs{
+            margin-top: 50px;
+            float: right;
+        }
+        .imgs a{
+            text-decoration: none;
+            color: #778A50;
+        }
+        .fb, .ig{
+            margin-left: 10px;
+        }
+        .line_v{
+            display: inline-block;
+            border-right: 1px solid #778A50;
+            height: 25px;
+            padding-right: 10px;
+            vertical-align: top;
+            }
+        
+        .btn_member{
+            display: inline-block;
+            font-weight: bold;
+            font-family: "Arial";
+            font-size: 14px;
+            border: 1px solid #778A50;
+            border-radius: 3px;
+            padding: 4.5px 23px;
+            vertical-align: top;
+            margin-left: 10px;
+        }
+
+    .menu{
+        background-color: #778A50;
+        border-radius: 3px;
+        width: 940px;
+        padding-left: 0px;
+        margin-top: 8px;
+        margin-bottom: 20px;
+        }
+        .menu li{
+            display: inline-block;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            font-family: "Arial Black";
+            font-size: 16px;
+            color: #EDF2C5;
+            margin: 0px 30px;
+        }
+    .main_pumpkin{
+        display: inline-block;
+        width: 940px;
+        height: 448px;
+        padding: 0;
+        }
+        .left_area{
+            display: inline-block;
+            padding: 0;
+            margin-top: 30px;
+            }
+            .left_area h2{
+                width: 415px;
+                font-family: "Arial Black";
+                font-size: 16px;
+                color: #EDF2C5;
+                padding: 15px 0px 15px 30px;
+                border-radius: 3px;
+                background-color: #778A50;
+                margin: 0 0 15px 0;
+            }
+            .left_area img{
+                border-radius: 3px;
+                padding: 0;
+                margin:0px 9px 0px 0px;
+            }
+        .right_area{
+            display: inline-block;
+            float: right;
+            margin-top: 30px;
+            }
+            .right_area h2{
+                font-family: "Arial Black";
+                font-size: 16px;
+                color: #EDF2C5;
+                padding: 15px 0px 15px 30px;
+                background: #778A50;
+                width: 415px;
+                margin: 0;
+                border-radius: 3px;
+            }
+            .right_content{
+                width: 415px;
+                height: 124px;
+                margin: 15px 0px 35px 0px;
+                padding: 16px 15px 0px 15px;
+                background: #F7FBDA;
+                }
+                
+                p{
+                    font-family: "Arial";
+                    font-size: 12px;
+                    padding: 0;
+                    width: 415px;
+                    color: #7D7D7D;
+                    margin: 0;
+                }
+                .p_top{
+                    line-height: 1.33;
+                }
+                .right_content hr{
+                    width: 414px;
+                    height: 1px;
+                    border: 0;
+                    background-color: #7D7D7D;
+                    margin-top: 16px;
+                    padding: 0;
+                }
+                .p_bottom{
+                    line-height: 1.88;
+                }
+    footer{
+        width: 100%;
+        height: 60px;
+        background-color: #778A50;
+        margin: 35px 0px 0px 0px;
+    }
+    footer p{
+        width: 100%;
+        font-family: "Arial";
+        font-size: 12px;
+        color: #EDF2C5;
+        padding: 24px 0px 25px 0px;
+        text-align: center;
+        margin: 0;
+        border: 0;
+    }
