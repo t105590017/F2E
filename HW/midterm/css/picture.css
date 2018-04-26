@@ -1,11 +1,17 @@
 article{
     background-color: #39537D;
-
+}
+.content{
+    margin: 0 auto;
+    padding: 0;
+    width: 980px;
 }
 h1 {
     font-size: 210%;
-    padding: 25px 0px 25px 50px;
-    color: #e87536;
+    padding-left: 100px;
+    padding-top: 30px;
+    margin: 0;
+    color: #fff;
 }
 .picturelist {
     box-sizing: border-box;
