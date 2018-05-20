@@ -59,15 +59,17 @@ header {
                     display: inline-block;
                     margin: auto;
                 }
-                .topmenu li {
+                .topmenu a {
                     padding: 0 13px;
                     margin-left: -3px;
                     display: inline-block;
                     color: #A59D8E;
                 }
+                .topmenu .inpage,.topmenu a:hover {
+                    color: #fff;
+                }
                 .topmenu .language {
                     display: inline-block;
-                   
                     margin-top: 15px;
                     }
                     .topmenu .language a {
@@ -81,8 +83,6 @@ header {
                     vertical-align: top;
                 }
     nav {
-        margin: 0 auto;
-        position: relative;
         margin: 0 auto;
         width: 1002px;
         height: 60px;
@@ -102,6 +102,11 @@ header {
             font-size: 20px;
             padding: 15px 40px;
             text-align: center;
+            margin-left: -5px;
+        }
+        nav .inpage,nav li:hover {
+            background-color: #333230;
+            border-right-color: #333230;
         }
         nav .separate {
             border-right: 1px solid #fff;
@@ -126,8 +131,8 @@ header {
                 display: inline-block;
             }
             footer .shareall img {
-                margin: 0 10px;
-                height: 60px;
+                margin: 0 15px;
+                height: 45px;
             }
         .footermenu_title {
             width: 980px;
@@ -167,3 +172,29 @@ header {
             .information span{
                 color: #f90;
             }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    width: 100px;
+    display: none;
+    position: absolute;
+    background-color: #333230;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px 10px;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    margin-left: -20px;
+}
+.dropdown:hover .dropdown-content a {
+    font-size: 20px;
+    line-height: 40px;
+    display: block;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.dropdown:hover .dropdown-content a:hover {
+    background: black;
+}

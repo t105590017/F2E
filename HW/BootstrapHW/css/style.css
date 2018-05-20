@@ -45,6 +45,7 @@ nav{
 .top_banner {
     height: 782px;
     background-image: url("../img/top-banner.jpg");
+    background-size: co;
     }
     header .bigtitle {
         margin-top: 335px;
@@ -60,9 +61,10 @@ nav{
 .about_page {
     height: 754px;
     background-image: url("../img/about-bg.jpg");
+    background-size: cover;
     }
     .about_page .content {
-        width: 770px;
+        max-width: 770px;
     }
     .about_icon {
         width: 120px;
