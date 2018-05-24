@@ -177,7 +177,6 @@ header {
     display: inline-block;
 }
 .dropdown-content {
-    width: 100px;
     display: none;
     position: absolute;
     background-color: #333230;
